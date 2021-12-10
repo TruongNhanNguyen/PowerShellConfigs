@@ -1,5 +1,9 @@
 # POWERSHELL CONFIGURATION
 
+## Cover
+
+![cover](Images/cover.jpg)
+
 To make my **PowerShell** terminal be cool, I decided to customize it with plugins
 
 - [Oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh)
