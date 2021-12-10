@@ -1,0 +1,189 @@
+{
+    "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+    "final_space": true,
+    "blocks": [
+        {
+            "type": "prompt",
+            "alignment": "left",
+            "segments": [
+                {
+                    "type": "os",
+                    "style": "diamond",
+                    "leading_diamond": "╭─",
+                    "trailing_diamond": "",
+                    "foreground": "#008080",
+                    "background": "#ffffff",
+                    "properties": {
+                        "prefix": " ",
+                        "alpine": "\uf300",
+                        "arch": "\uf303",
+                        "centos": "\uf304",
+                        "debian": "\uf306",
+                        "elementary": "\uf309",
+                        "fedora": "\uf30a",
+                        "gentoo": "\uf30d",
+                        "linux": "\ue712",
+                        "macos": "\ue711",
+                        "manjaro": "\uf312",
+                        "mint": "\uf30f",
+                        "opensuse": "\uf314",
+                        "raspbian": "\uf315",
+                        "ubuntu": "\uf31c",
+                        "wsl": "\ue712",
+                        "wsl_separator": " on ",
+                        "windows": "\ufab2",
+                        "postfix": ""
+                    }
+                },
+                {
+                    "type": "root",
+                    "style": "powerline",
+                    "powerline_symbol": "\uE0B0",
+                    "foreground": "#008080",
+                    "background": "#4e4d4d"
+                },
+                {
+                    "type": "session",
+                    "style": "powerline",
+                    "powerline_symbol": "\uE0B0",
+                    "foreground": "#ffffff",
+                    "background": "#008080"
+                },
+                {
+                    "type": "path",
+                    "style": "powerline",
+                    "powerline_symbol": "\uE0B0",
+                    "foreground": "#ffffff",
+                    "background": "#b6a407",
+                    "properties": {
+                        "home_icon": "\uF015 ",
+                        "folder_icon": "\uf07c ",
+                        "folder_separator_icon": " \uE0B1 ",
+                        "style": "agnoster"
+                    }
+                },
+                {
+                    "type": "git",
+                    "style": "powerline",
+                    "powerline_symbol": "\uE0B0",
+                    "foreground": "#00e0f0",
+                    "background": "#ffffff",
+                    "properties": {
+                        "display_status": true,
+                        "display_branch_status": true,
+                        "display_status_detail": true,
+                        "display_stash_count": true,
+                        "display_upstream_icon": true,
+                        "worktree_count_icon": " ",
+                        "display_worktree_count": true,
+                        "commit_icon": " ",
+                        "tag_icon": " ",
+                        "rebase_icon": "",
+                        "cherry_pick_icon": "",
+                        "revert_icon": "",
+                        "merge_icon": "",
+                        "no_commits_icon": "",
+                        "git_icon": " ",
+                        "github_icon": "  ",
+                        "branch_icon": "",
+                        "status_colors_enabled": true,
+                        "color_background": false,
+                        "local_changes_color": "#ff5e00",
+                        "working_color": "#ff0040",
+                        "staging_color": "#00e029",
+                        "ahead_color": "#b0b300",
+                        "behind_color": "#ff00d4",
+                        "azure_devops_icon": " ﴃ",
+                        "bitbucket_icon": " ",
+                        "branch_gone_icon": "\u2261",
+                        "branch_identical_icon": "\u2261",
+                        "branch_ahead_icon": "↑",
+                        "branch_behind_icon": "↓",
+                        "gitlab_icon": " ",
+                        "local_staged_icon": " ",
+                        "local_working_icon": " ",
+                        "stash_count_icon": " ",
+                        "status_separator_icon": "|"
+                    }
+                },
+                {
+                    "type": "python",
+                    "style": "powerline",
+                    "powerline_symbol": "\uE0B0",
+                    "foreground": "#ffffff",
+                    "background": "#0091ad",
+                    "properties": {
+                        "prefix": " \uE235 ",
+                        "postfix": " 3.9.9 ",
+                        "display_default": true,
+                        "display_version": true
+                    }
+                },
+                {
+                    "type": "node",
+                    "style": "powerline",
+                    "powerline_symbol": "\uE0B0",
+                    "foreground": "#ffffff",
+                    "background": "#548149",
+                    "properties": {
+                        "prefix": " \uE718 ",
+                        "display_version": true
+                    }
+                },
+                {
+                    "type": "julia",
+                    "style": "powerline",
+                    "powerline_symbol": "\uE0B0",
+                    "foreground": "#ffffff",
+                    "background": "magenta",
+                    "properties": {
+                        "prefix": " \uE624 "
+                    }
+                },
+                {
+                    "type": "exit",
+                    "style": "powerline",
+                    "powerline_symbol": "\uE0B0",
+                    "foreground": "#ffffff",
+                    "background": "#fc5151"
+                }
+            ]
+        },
+        {
+            "type": "prompt",
+            "alignment": "right",
+            "segments": [
+                {
+                    "type": "executiontime",
+                    "style": "powerline",
+                    "invert_powerline": true,
+                    "powerline_symbol": "\uE0B2",
+                    "background": "#40c4ff",
+                    "foreground": "#ffffff",
+                    "properties": {
+                        "threshold": 500,
+                        "prefix": "<#ffffff> \uf252 </>",
+                        "postfix": " "
+                    }
+                }
+            ]
+        },
+        {
+            "type": "prompt",
+            "alignment": "left",
+            "newline": true,
+            "segments": [
+                {
+                    "type": "text",
+                    "style": "plain",
+                    "foreground": "#ffffff",
+                    "properties": {
+                        "prefix": "",
+                        "postfix": "",
+                        "text": "╰─"
+                    }
+                }
+            ]
+        }
+    ]
+}
