@@ -11,7 +11,7 @@ Set-PSReadLineOption -ShowToolTips
 Set-PSReadLineOption -PredictionSource History
 
 # Set theme
-Set-PoshPrompt -Theme ~/PoshCustomThemes/.my_agnoster.omp.json
+oh-my-posh --init --shell pwsh --config ~/PoshCustomThemes/.swiftman.omp.json | Invoke-Expression
 
 # Aliases
 Set-Alias vim nvim
