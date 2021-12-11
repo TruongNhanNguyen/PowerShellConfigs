@@ -120,5 +120,13 @@ Export-PoshTheme -FilePath "~/PoshCustomThemes/.swiftman.omp.json" -Format json
 then add the newline below to `$PROFILE`
 
 ```powershell
-Set-PoshPrompt -Theme ~/PoshCustomThemes/.swiftman.omp.json
+oh-my-posh --init --shell pwsh --config ~/PoshCustomThemes/.swiftman.omp.json | Invoke-Expression
+```
+
+## Upgrading Oh-my-posh
+
+To update oh-my-posh plugin to latest version ([v6.29.1](https://github.com/JanDeDobbeleer/oh-my-posh)), run the command below in PowerShell
+
+```powershell
+PS> Update-Module -Name oh-my-posh -Scope CurrentUser
 ```
