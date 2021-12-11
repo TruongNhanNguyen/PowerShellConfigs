@@ -120,5 +120,5 @@ Export-PoshTheme -FilePath "~/PoshCustomThemes/.swiftman.omp.json" -Format json
 then add the newline below to `$PROFILE`
 
 ```powershell
-Set-PoshPrompt -Theme ~/PoshCustomThemes/.my_agnoster.omp.json
+Set-PoshPrompt -Theme ~/PoshCustomThemes/.swiftman.omp.json
 ```
