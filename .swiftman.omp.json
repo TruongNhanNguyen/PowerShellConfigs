@@ -179,7 +179,7 @@
                     "foreground": "#ffffff",
                     "properties": {
                         "prefix": "",
-                        "postfix": "",
+                        "postfix": "\ue285ﬀ",
                         "text": "╰─"
                     }
                 }
